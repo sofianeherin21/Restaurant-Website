@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One&display=swap');
+
+body{
+
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+
+}
+
+.offset:before{
+  display: block;
+  content: "";
+  height: 10rem;
+  margin-top:-10rem;  
+}
+
+
+.navbar{
+
+  position: fixed;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 1000;
+  letter-spacing: .1rem;
+  background: rgba(0,0,0,0.75)!important;
+}
+.caption h1{
+
+  font-family: 'Lily Script One', cursive;
+  font-size: 370%;
+  text-shadow: .1rem 0.1rem .8rem gray;
+}
+.caption h3{
+
+  font-family: 'Lily Script One', cursive;
+  font-size: 250%;
+  padding-left: 5%;
+  text-shadow: .1rem 0.1rem .8rem gray;
+
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+
+  color: #1ebba3;
+}
+
+.home-inner{
+  background-image: url("img/land.jpg");
+}
+
+.btn{
+  color: black;
+  background-color: rgba(255,255,255,0.5);
+  margin-left: 12%;
+}
+.btn:hover{
+  color:white;
+  background-color: black;
+}
+.caption{
+
+  width:100%;
+  max-width: 100%;
+  position: absolute;
+  color: black;
+  top: 38%;
+  padding-left: 10%;
+  z-index: 1;
+}
+
+
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+    font-family: 'Lily Script One', cursive;
+    text-align: center;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+/*==========FEATURES======*/
+
+.feature svg.svg-inline--fa{
+   color: #1ebba3;
+}
+.heading{
+  font-size: 3rem;
+  font-family: 'Lily Script One', cursive;
+    text-align: center;
+}
+img{
+
+
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
